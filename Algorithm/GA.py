@@ -257,7 +257,7 @@ def run_GA_with_clustering(customers_all, k, init_method='random', pop_size=150,
 def main():
     overall_start = time.time()
     try:
-        data = pd.read_csv("e:/Innter/VRPTW/dataVRP/R201.csv")
+        data = pd.read_csv("../Data/R201.csv")
         print(data.head())
     except Exception as e:
         print("Không thấy file dữ liệu.")
